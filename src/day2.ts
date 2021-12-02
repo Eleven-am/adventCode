@@ -1,6 +1,6 @@
 import reader, {log} from "../utils/reader";
 
-async function dayA2() {
+async function day2A() {
     const puzzle = await reader('2:12.txt');
     let x = 0, y = 0;
 
@@ -60,5 +60,5 @@ async function day2B() {
     log('b', x * y);
 }
 
-dayA2();
+day2A();
 day2B();
